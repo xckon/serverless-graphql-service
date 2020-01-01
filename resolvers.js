@@ -1,4 +1,4 @@
-const { AuthenticationError, ForbiddenError, ci } = require('apollo-server');
+const { AuthenticationError, ForbiddenError } = require('apollo-server');
 const jwt = require('jsonwebtoken');
 const createToken = async (username, secret, expiresIn) => {
   return await jwt.sign({ username }, secret, {

@@ -5,9 +5,9 @@
     "INSTROSPECTION": "true",
     "PLAYGROUND": "true",
     "PORT": "80",
-    "AWS_ACCESS_KEY_ID": "@dynamodb-aws-access-key-id",
-    "AWS_SECRET_ACCESS_KEY": "@dynamodb-aws-secret-access-key",
-    "AWS_DEFAULT_REGION": "us-west-2",
+    "MY_AWS_ACCESS_KEY_ID": "@dynamodb-aws-access-key-id",
+    "MY_AWS_SECRET_ACCESS_KEY": "@dynamodb-aws-secret-access-key",
+    "MY_AWS_DEFAULT_REGION": "us-west-2",
     "SECRET": "@jwt-secret",
     "SECURE_USERNAME": "@secure-username",
     "SECURE_PASSWORD": "@secure-password"
