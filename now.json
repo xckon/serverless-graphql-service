@@ -4,6 +4,12 @@
   "env": {
     "INSTROSPECTION": "true",
     "PLAYGROUND": "true",
-    "PORT": "80"
+    "PORT": "80",
+    "AWS_ACCESS_KEY_ID": "@dynamodb-aws-access-key-id",
+    "AWS_SECRET_ACCESS_KEY": "@dynamodb-aws-secret-access-key",
+    "AWS_DEFAULT_REGION": "us-west-2",
+    "SECRET": "@jwt-secret",
+    "SECURE_USERNAME": "@secure-username",
+    "SECURE_PASSWORD": "@secure-password"
   }
 }

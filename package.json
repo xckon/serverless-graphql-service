@@ -6,12 +6,16 @@
   "author": "Ezequiel Falduto <ef@braintly.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "db:createMoviesTable": "node migrations/createMoviesTable.js",
+    "db:seed:movies": "node  seeders/movies.js"
   },
   "dependencies": {
     "apollo-server": "^2.9.15",
+    "aws-sdk": "^2.596.0",
     "dotenv": "^8.2.0",
     "graphql": "^14.5.8",
+    "jsonwebtoken": "^8.5.1",
     "nodemon": "^2.0.2"
   },
   "devDependencies": {
